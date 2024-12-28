@@ -1,0 +1,646 @@
+=== DEBUG | song.trackInfo 2D Matrix Values |---
+Track-0: ['Charleston Gals  - ', -1, 'D', -1, False, -1, -1, 7680, -1]
+Track-1: ['Acoustic Guitar (steel)', 0, 'X', 25, True, 1, 0, 30720, -1]
+Track-2: ['Charleston Gals  - ', -1, 'X', -1, False, -1, -1, 0, -1]
+Track-3: ['Count In', 3, 'C', 117, True, -1, -1, -1, -1]
+_finalBeatPattern: 1
+COUNT-IN SEQUENCE: [92;1m | 1 2 3 4 |[0m <-- on MIDI channel # 3
+
+SONG INFORMATION:
+        Source Filepath...................................TestScores-and-MIDIs/Test-10_TblEdit_Charleston-Gals.mid
+[93;1m    [1] [0m# Measures of Count-In............................[93;1m1[0m
+[93;1m    [2] [0mBeat Pickup Starts On.............................[93;1m0.0[0m
+[93;1m    [3] [0mCount on Half-Beats?..............................[93;1mFalse[0m
+[93;1m    [4] [0mKey Signature.....................................[93;1mD[0m
+[93;1m    [5] [0mTime Signature....................................[93;1m4/4[0m
+[93;1m    [6] [0mSong Play-Throughs................................[93;1m1[0m
+        Tempo (BPM).......................................120
+        Tempo (MIDI micros)...............................500000
+        Song Length Before Count-In (Beats)...............128
+        Song Length Before Count-In (Seconds).............64
+        Song Length Before Count-In (Ticks)...............30720
+        Ticks Per Beat....................................240
+        Track-0 (ch--1 key-D): Charleston Gals  - ........Remove
+        Track-1 (ch-0 key-X): Acoustic Guitar (steel).....Keep
+        Track-2 (ch--1 key-X): Charleston Gals  - ........Remove
+        Track-3 (ch-3 key-C): Count In....................Keep
+
+=== Meta-Messages for Track | Charleston Gals  - 
+000000 MetaMessage('copyright', text='Charleston Gals.xml', time=0)
+000000 MetaMessage('track_name', name='Charleston Gals  - ', time=0)
+000000 MetaMessage('set_tempo', tempo=500000, time=0)
+000000 MetaMessage('time_signature', numerator=4, denominator=4, clocks_per_click=36, notated_32nd_notes_per_beat=8, time=0)
+000000 MetaMessage('key_signature', key='D', time=0)
+000000 MetaMessage('time_signature', numerator=4, denominator=4, clocks_per_click=36, notated_32nd_notes_per_beat=8, time=7680)
+007680 MetaMessage('key_signature', key='D', time=0)
+007680 MetaMessage('end_of_track', time=0)
+
+=== Meta-Messages for Track | Acoustic Guitar (steel)
+000000 MetaMessage('track_name', name='Acoustic Guitar (steel)', time=0)
+000000 MetaMessage('text', text='Make', time=0)
+000240 MetaMessage('text', text='my', time=0)
+000480 MetaMessage('text', text='mon', time=0)
+000600 MetaMessage('text', text='ey', time=0)
+000720 MetaMessage('text', text='and', time=0)
+000840 MetaMessage('text', text='I', time=0)
+000960 MetaMessage('text', text='spend', time=0)
+001200 MetaMessage('text', text='it', time=0)
+001440 MetaMessage('text', text='free,', time=0)
+001920 MetaMessage('text', text='Make', time=0)
+002160 MetaMessage('text', text='my', time=0)
+002400 MetaMessage('text', text='mon', time=0)
+002520 MetaMessage('text', text='ey', time=0)
+002640 MetaMessage('text', text='and', time=0)
+002760 MetaMessage('text', text='I', time=0)
+002880 MetaMessage('text', text='spend', time=0)
+003120 MetaMessage('text', text='it', time=0)
+003360 MetaMessage('text', text='free,', time=0)
+003840 MetaMessage('text', text='Make', time=0)
+004080 MetaMessage('text', text='my', time=0)
+004320 MetaMessage('text', text='mon', time=0)
+004440 MetaMessage('text', text='ey', time=0)
+004560 MetaMessage('text', text='and', time=0)
+004680 MetaMessage('text', text='I', time=0)
+004800 MetaMessage('text', text='spend', time=0)
+005040 MetaMessage('text', text='it', time=0)
+005280 MetaMessage('text', text='free,', time=0)
+005520 MetaMessage('text', text='And', time=0)
+005640 MetaMessage('text', text='the', time=0)
+005760 MetaMessage('text', text='Charles', time=0)
+006000 MetaMessage('text', text='ton', time=0)
+006240 MetaMessage('text', text='gals', time=0)
+006480 MetaMessage('text', text='are', time=0)
+006600 MetaMessage('text', text='the', time=0)
+006720 MetaMessage('text', text='gals', time=0)
+006960 MetaMessage('text', text='for', time=0)
+007200 MetaMessage('text', text='me.', time=0)
+007680 MetaMessage('text', text='Make', time=0)
+007920 MetaMessage('text', text='my', time=0)
+008160 MetaMessage('text', text='mon', time=0)
+008280 MetaMessage('text', text='ey', time=0)
+008400 MetaMessage('text', text='and', time=0)
+008520 MetaMessage('text', text='I', time=0)
+008640 MetaMessage('text', text='spend', time=0)
+008880 MetaMessage('text', text='it', time=0)
+009120 MetaMessage('text', text='free,', time=0)
+009600 MetaMessage('text', text='Make', time=0)
+009840 MetaMessage('text', text='my', time=0)
+010080 MetaMessage('text', text='mon', time=0)
+010200 MetaMessage('text', text='ey', time=0)
+010320 MetaMessage('text', text='and', time=0)
+010440 MetaMessage('text', text='I', time=0)
+010560 MetaMessage('text', text='spend', time=0)
+010800 MetaMessage('text', text='it', time=0)
+011040 MetaMessage('text', text='free,', time=0)
+011520 MetaMessage('text', text='Make', time=0)
+011760 MetaMessage('text', text='my', time=0)
+012000 MetaMessage('text', text='mon', time=0)
+012120 MetaMessage('text', text='ey', time=0)
+012240 MetaMessage('text', text='and', time=0)
+012360 MetaMessage('text', text='I', time=0)
+012480 MetaMessage('text', text='spend', time=0)
+012720 MetaMessage('text', text='it', time=0)
+012960 MetaMessage('text', text='free,', time=0)
+013200 MetaMessage('text', text='And', time=0)
+013320 MetaMessage('text', text='the', time=0)
+013440 MetaMessage('text', text='Charles', time=0)
+013680 MetaMessage('text', text='ton', time=0)
+013920 MetaMessage('text', text='gals', time=0)
+014160 MetaMessage('text', text='are', time=0)
+014280 MetaMessage('text', text='the', time=0)
+014400 MetaMessage('text', text='gals', time=0)
+014640 MetaMessage('text', text='for', time=0)
+014880 MetaMessage('text', text='me.', time=0)
+015360 MetaMessage('text', text='Hide', time=0)
+015720 MetaMessage('text', text='a', time=0)
+015840 MetaMessage('text', text='way', time=0)
+016080 MetaMessage('text', text='the', time=0)
+016320 MetaMessage('text', text='Charles', time=0)
+016560 MetaMessage('text', text='ton', time=0)
+016800 MetaMessage('text', text='gals,', time=0)
+017280 MetaMessage('text', text='Hide', time=0)
+017520 MetaMessage('text', text='a', time=0)
+017760 MetaMessage('text', text='way', time=0)
+018000 MetaMessage('text', text='the', time=0)
+018240 MetaMessage('text', text='Charles', time=0)
+018480 MetaMessage('text', text='ton', time=0)
+018720 MetaMessage('text', text='gals,', time=0)
+019200 MetaMessage('text', text='Hide', time=0)
+019560 MetaMessage('text', text='a', time=0)
+019680 MetaMessage('text', text='way', time=0)
+019920 MetaMessage('text', text='the', time=0)
+020160 MetaMessage('text', text='Charles', time=0)
+020400 MetaMessage('text', text='ton', time=0)
+020640 MetaMessage('text', text='gals,', time=0)
+020880 MetaMessage('text', text='And', time=0)
+021000 MetaMessage('text', text='the', time=0)
+021120 MetaMessage('text', text='Charles', time=0)
+021360 MetaMessage('text', text='ton', time=0)
+021600 MetaMessage('text', text='gals', time=0)
+021840 MetaMessage('text', text='are', time=0)
+021960 MetaMessage('text', text='the', time=0)
+022080 MetaMessage('text', text='gals', time=0)
+022320 MetaMessage('text', text='for', time=0)
+022560 MetaMessage('text', text='me.', time=0)
+023040 MetaMessage('text', text='Hide', time=0)
+023400 MetaMessage('text', text='a', time=0)
+023520 MetaMessage('text', text='way', time=0)
+023760 MetaMessage('text', text='the', time=0)
+024000 MetaMessage('text', text='Charles', time=0)
+024240 MetaMessage('text', text='ton', time=0)
+024480 MetaMessage('text', text='gals,', time=0)
+024960 MetaMessage('text', text='Hide', time=0)
+025200 MetaMessage('text', text='a', time=0)
+025440 MetaMessage('text', text='way', time=0)
+025680 MetaMessage('text', text='the', time=0)
+025920 MetaMessage('text', text='Charles', time=0)
+026160 MetaMessage('text', text='ton', time=0)
+026400 MetaMessage('text', text='gals,', time=0)
+026880 MetaMessage('text', text='Hide', time=0)
+027240 MetaMessage('text', text='a', time=0)
+027360 MetaMessage('text', text='way', time=0)
+027600 MetaMessage('text', text='the', time=0)
+027840 MetaMessage('text', text='Charles', time=0)
+028080 MetaMessage('text', text='ton', time=0)
+028320 MetaMessage('text', text='gals,', time=0)
+028560 MetaMessage('text', text='And', time=0)
+028680 MetaMessage('text', text='the', time=0)
+028800 MetaMessage('text', text='Charles', time=0)
+029040 MetaMessage('text', text='ton', time=0)
+029280 MetaMessage('text', text='gals', time=0)
+029520 MetaMessage('text', text='are', time=0)
+029640 MetaMessage('text', text='the', time=0)
+029760 MetaMessage('text', text='gals', time=0)
+030000 MetaMessage('text', text='for', time=0)
+030240 MetaMessage('text', text='me.', time=0)
+030720 MetaMessage('end_of_track', time=0)
+
+=== Meta-Messages for Track | Charleston Gals  - 
+000000 MetaMessage('track_name', name='Charleston Gals  - ', time=0)
+000000 MetaMessage('end_of_track', time=0)
+
+--------------------------------------------------------------------------------
+Number of Tracks in outputMIDI: 3
+--------------------------------------------------------------------------------
+
+=== All-Messages for Track 0 | Charleston Gals  - 
+000000 MetaMessage('copyright', text='Charleston Gals.xml', time=0)
+000000 MetaMessage('track_name', name='Charleston Gals  - ', time=0)
+000000 MetaMessage('set_tempo', tempo=500000, time=0)
+000000 MetaMessage('time_signature', numerator=4, denominator=4, clocks_per_click=36, notated_32nd_notes_per_beat=8, time=0)
+000000 MetaMessage('key_signature', key='D', time=0)
+000000 MetaMessage('time_signature', numerator=4, denominator=4, clocks_per_click=36, notated_32nd_notes_per_beat=8, time=7680)
+007680 MetaMessage('key_signature', key='D', time=0)
+007680 MetaMessage('end_of_track', time=0)
+
+
+
+=== All-Messages for Track 1 | Acoustic Guitar (steel)
+000000 MetaMessage('track_name', name='Acoustic Guitar (steel)', time=0)
+000000 program_change channel=0 program=25 time=0
+000000 program_change channel=1 program=25 time=0
+000000 program_change channel=2 program=25 time=0
+000000 control_change channel=0 control=101 value=0 time=0
+000000 control_change channel=0 control=100 value=0 time=0
+000000 control_change channel=0 control=6 value=8 time=0
+000000 control_change channel=0 control=101 value=127 time=0
+000000 control_change channel=0 control=100 value=127 time=0
+000000 pitchwheel channel=0 pitch=0 time=0
+000000 control_change channel=1 control=101 value=0 time=0
+000000 control_change channel=1 control=100 value=0 time=0
+000000 control_change channel=1 control=6 value=8 time=0
+000000 control_change channel=1 control=101 value=127 time=0
+000000 control_change channel=1 control=100 value=127 time=0
+000000 pitchwheel channel=1 pitch=0 time=0
+000000 control_change channel=2 control=101 value=0 time=0
+000000 control_change channel=2 control=100 value=0 time=0
+000000 control_change channel=2 control=6 value=8 time=0
+000000 control_change channel=2 control=101 value=127 time=0
+000000 control_change channel=2 control=100 value=127 time=0
+000000 pitchwheel channel=2 pitch=0 time=0
+000000 control_change channel=0 control=10 value=0 time=0
+000000 control_change channel=1 control=10 value=0 time=0
+000000 control_change channel=2 control=10 value=0 time=0
+000000 control_change channel=0 control=93 value=0 time=0
+000000 control_change channel=0 control=91 value=0 time=0
+000000 control_change channel=1 control=93 value=0 time=0
+000000 control_change channel=1 control=91 value=0 time=0
+000000 control_change channel=2 control=93 value=0 time=0
+000000 control_change channel=2 control=91 value=0 time=0
+000000 MetaMessage('text', text='Make', time=0)
+000000 note_on channel=2 note=74 velocity=95 time=0
+000000 note_off channel=2 note=74 velocity=100 time=240
+000240 MetaMessage('text', text='my', time=0)
+000240 note_on channel=2 note=78 velocity=95 time=0
+000240 note_off channel=2 note=78 velocity=100 time=240
+000480 MetaMessage('text', text='mon', time=0)
+000480 note_on channel=2 note=74 velocity=95 time=0
+000480 note_off channel=2 note=74 velocity=100 time=120
+000600 MetaMessage('text', text='ey', time=0)
+000600 note_on channel=2 note=76 velocity=95 time=0
+000600 note_off channel=2 note=76 velocity=100 time=120
+000720 MetaMessage('text', text='and', time=0)
+000720 note_on channel=2 note=78 velocity=95 time=0
+000720 note_off channel=2 note=78 velocity=100 time=120
+000840 MetaMessage('text', text='I', time=0)
+000840 note_on channel=2 note=79 velocity=95 time=0
+000840 note_off channel=2 note=79 velocity=100 time=120
+000960 MetaMessage('text', text='spend', time=0)
+000960 note_on channel=2 note=81 velocity=95 time=0
+000960 note_off channel=2 note=81 velocity=100 time=240
+001200 MetaMessage('text', text='it', time=0)
+001200 note_on channel=2 note=79 velocity=95 time=0
+001200 note_off channel=2 note=79 velocity=100 time=240
+001440 MetaMessage('text', text='free,', time=0)
+001440 note_on channel=2 note=79 velocity=95 time=0
+001440 note_off channel=2 note=79 velocity=100 time=480
+001920 MetaMessage('text', text='Make', time=0)
+001920 note_on channel=2 note=79 velocity=95 time=0
+001920 note_off channel=2 note=79 velocity=100 time=240
+002160 MetaMessage('text', text='my', time=0)
+002160 note_on channel=2 note=83 velocity=95 time=0
+002160 note_off channel=2 note=83 velocity=100 time=240
+002400 MetaMessage('text', text='mon', time=0)
+002400 note_on channel=2 note=79 velocity=95 time=0
+002400 note_off channel=2 note=79 velocity=100 time=120
+002520 MetaMessage('text', text='ey', time=0)
+002520 note_on channel=2 note=81 velocity=95 time=0
+002520 note_off channel=2 note=81 velocity=100 time=120
+002640 MetaMessage('text', text='and', time=0)
+002640 note_on channel=2 note=83 velocity=95 time=0
+002640 note_off channel=2 note=83 velocity=100 time=120
+002760 MetaMessage('text', text='I', time=0)
+002760 note_on channel=2 note=83 velocity=95 time=0
+002760 note_off channel=2 note=83 velocity=100 time=120
+002880 MetaMessage('text', text='spend', time=0)
+002880 note_on channel=2 note=84 velocity=95 time=0
+002880 note_off channel=2 note=84 velocity=100 time=240
+003120 MetaMessage('text', text='it', time=0)
+003120 note_on channel=2 note=83 velocity=95 time=0
+003120 note_off channel=2 note=83 velocity=100 time=240
+003360 MetaMessage('text', text='free,', time=0)
+003360 note_on channel=2 note=81 velocity=95 time=0
+003360 note_off channel=2 note=81 velocity=100 time=480
+003840 MetaMessage('text', text='Make', time=0)
+003840 note_on channel=2 note=74 velocity=95 time=0
+003840 note_off channel=2 note=74 velocity=100 time=240
+004080 MetaMessage('text', text='my', time=0)
+004080 note_on channel=2 note=78 velocity=95 time=0
+004080 note_off channel=2 note=78 velocity=100 time=240
+004320 MetaMessage('text', text='mon', time=0)
+004320 note_on channel=2 note=74 velocity=95 time=0
+004320 note_off channel=2 note=74 velocity=100 time=120
+004440 MetaMessage('text', text='ey', time=0)
+004440 note_on channel=2 note=76 velocity=95 time=0
+004440 note_off channel=2 note=76 velocity=100 time=120
+004560 MetaMessage('text', text='and', time=0)
+004560 note_on channel=2 note=78 velocity=95 time=0
+004560 note_off channel=2 note=78 velocity=100 time=120
+004680 MetaMessage('text', text='I', time=0)
+004680 note_on channel=2 note=79 velocity=95 time=0
+004680 note_off channel=2 note=79 velocity=100 time=120
+004800 MetaMessage('text', text='spend', time=0)
+004800 note_on channel=2 note=81 velocity=95 time=0
+004800 note_off channel=2 note=81 velocity=100 time=240
+005040 MetaMessage('text', text='it', time=0)
+005040 note_on channel=2 note=79 velocity=95 time=0
+005040 note_off channel=2 note=79 velocity=100 time=240
+005280 MetaMessage('text', text='free,', time=0)
+005280 note_on channel=2 note=79 velocity=95 time=0
+005280 note_off channel=2 note=79 velocity=100 time=240
+005520 MetaMessage('text', text='And', time=0)
+005520 note_on channel=2 note=79 velocity=95 time=0
+005520 note_off channel=2 note=79 velocity=100 time=120
+005640 MetaMessage('text', text='the', time=0)
+005640 note_on channel=2 note=79 velocity=95 time=0
+005640 note_off channel=2 note=79 velocity=100 time=120
+005760 MetaMessage('text', text='Charles', time=0)
+005760 note_on channel=2 note=78 velocity=95 time=0
+005760 note_off channel=2 note=78 velocity=100 time=240
+006000 MetaMessage('text', text='ton', time=0)
+006000 note_on channel=2 note=74 velocity=95 time=0
+006000 note_off channel=2 note=74 velocity=100 time=240
+006240 MetaMessage('text', text='gals', time=0)
+006240 note_on channel=2 note=76 velocity=95 time=0
+006240 note_off channel=2 note=76 velocity=100 time=240
+006480 MetaMessage('text', text='are', time=0)
+006480 note_on channel=2 note=74 velocity=95 time=0
+006480 note_off channel=2 note=74 velocity=100 time=120
+006600 MetaMessage('text', text='the', time=0)
+006600 note_on channel=2 note=76 velocity=95 time=0
+006600 note_off channel=2 note=76 velocity=100 time=120
+006720 MetaMessage('text', text='gals', time=0)
+006720 note_on channel=2 note=78 velocity=95 time=0
+006720 note_off channel=2 note=78 velocity=100 time=240
+006960 MetaMessage('text', text='for', time=0)
+006960 note_on channel=2 note=74 velocity=95 time=0
+006960 note_off channel=2 note=74 velocity=100 time=240
+007200 MetaMessage('text', text='me.', time=0)
+007200 note_on channel=2 note=74 velocity=95 time=0
+007200 note_off channel=2 note=74 velocity=100 time=480
+007680 MetaMessage('text', text='Make', time=0)
+007680 note_on channel=2 note=74 velocity=95 time=0
+007680 note_off channel=2 note=74 velocity=100 time=240
+007920 MetaMessage('text', text='my', time=0)
+007920 note_on channel=2 note=78 velocity=95 time=0
+007920 note_off channel=2 note=78 velocity=100 time=240
+008160 MetaMessage('text', text='mon', time=0)
+008160 note_on channel=2 note=74 velocity=95 time=0
+008160 note_off channel=2 note=74 velocity=100 time=120
+008280 MetaMessage('text', text='ey', time=0)
+008280 note_on channel=2 note=76 velocity=95 time=0
+008280 note_off channel=2 note=76 velocity=100 time=120
+008400 MetaMessage('text', text='and', time=0)
+008400 note_on channel=2 note=78 velocity=95 time=0
+008400 note_off channel=2 note=78 velocity=100 time=120
+008520 MetaMessage('text', text='I', time=0)
+008520 note_on channel=2 note=79 velocity=95 time=0
+008520 note_off channel=2 note=79 velocity=100 time=120
+008640 MetaMessage('text', text='spend', time=0)
+008640 note_on channel=2 note=81 velocity=95 time=0
+008640 note_off channel=2 note=81 velocity=100 time=240
+008880 MetaMessage('text', text='it', time=0)
+008880 note_on channel=2 note=79 velocity=95 time=0
+008880 note_off channel=2 note=79 velocity=100 time=240
+009120 MetaMessage('text', text='free,', time=0)
+009120 note_on channel=2 note=79 velocity=95 time=0
+009120 note_off channel=2 note=79 velocity=100 time=480
+009600 MetaMessage('text', text='Make', time=0)
+009600 note_on channel=2 note=79 velocity=95 time=0
+009600 note_off channel=2 note=79 velocity=100 time=240
+009840 MetaMessage('text', text='my', time=0)
+009840 note_on channel=2 note=83 velocity=95 time=0
+009840 note_off channel=2 note=83 velocity=100 time=240
+010080 MetaMessage('text', text='mon', time=0)
+010080 note_on channel=2 note=79 velocity=95 time=0
+010080 note_off channel=2 note=79 velocity=100 time=120
+010200 MetaMessage('text', text='ey', time=0)
+010200 note_on channel=2 note=81 velocity=95 time=0
+010200 note_off channel=2 note=81 velocity=100 time=120
+010320 MetaMessage('text', text='and', time=0)
+010320 note_on channel=2 note=83 velocity=95 time=0
+010320 note_off channel=2 note=83 velocity=100 time=120
+010440 MetaMessage('text', text='I', time=0)
+010440 note_on channel=2 note=83 velocity=95 time=0
+010440 note_off channel=2 note=83 velocity=100 time=120
+010560 MetaMessage('text', text='spend', time=0)
+010560 note_on channel=2 note=84 velocity=95 time=0
+010560 note_off channel=2 note=84 velocity=100 time=240
+010800 MetaMessage('text', text='it', time=0)
+010800 note_on channel=2 note=83 velocity=95 time=0
+010800 note_off channel=2 note=83 velocity=100 time=240
+011040 MetaMessage('text', text='free,', time=0)
+011040 note_on channel=2 note=81 velocity=95 time=0
+011040 note_off channel=2 note=81 velocity=100 time=480
+011520 MetaMessage('text', text='Make', time=0)
+011520 note_on channel=2 note=74 velocity=95 time=0
+011520 note_off channel=2 note=74 velocity=100 time=240
+011760 MetaMessage('text', text='my', time=0)
+011760 note_on channel=2 note=78 velocity=95 time=0
+011760 note_off channel=2 note=78 velocity=100 time=240
+012000 MetaMessage('text', text='mon', time=0)
+012000 note_on channel=2 note=74 velocity=95 time=0
+012000 note_off channel=2 note=74 velocity=100 time=120
+012120 MetaMessage('text', text='ey', time=0)
+012120 note_on channel=2 note=76 velocity=95 time=0
+012120 note_off channel=2 note=76 velocity=100 time=120
+012240 MetaMessage('text', text='and', time=0)
+012240 note_on channel=2 note=78 velocity=95 time=0
+012240 note_off channel=2 note=78 velocity=100 time=120
+012360 MetaMessage('text', text='I', time=0)
+012360 note_on channel=2 note=79 velocity=95 time=0
+012360 note_off channel=2 note=79 velocity=100 time=120
+012480 MetaMessage('text', text='spend', time=0)
+012480 note_on channel=2 note=81 velocity=95 time=0
+012480 note_off channel=2 note=81 velocity=100 time=240
+012720 MetaMessage('text', text='it', time=0)
+012720 note_on channel=2 note=79 velocity=95 time=0
+012720 note_off channel=2 note=79 velocity=100 time=240
+012960 MetaMessage('text', text='free,', time=0)
+012960 note_on channel=2 note=79 velocity=95 time=0
+012960 note_off channel=2 note=79 velocity=100 time=240
+013200 MetaMessage('text', text='And', time=0)
+013200 note_on channel=2 note=79 velocity=95 time=0
+013200 note_off channel=2 note=79 velocity=100 time=120
+013320 MetaMessage('text', text='the', time=0)
+013320 note_on channel=2 note=79 velocity=95 time=0
+013320 note_off channel=2 note=79 velocity=100 time=120
+013440 MetaMessage('text', text='Charles', time=0)
+013440 note_on channel=2 note=78 velocity=95 time=0
+013440 note_off channel=2 note=78 velocity=100 time=240
+013680 MetaMessage('text', text='ton', time=0)
+013680 note_on channel=2 note=74 velocity=95 time=0
+013680 note_off channel=2 note=74 velocity=100 time=240
+013920 MetaMessage('text', text='gals', time=0)
+013920 note_on channel=2 note=76 velocity=95 time=0
+013920 note_off channel=2 note=76 velocity=100 time=240
+014160 MetaMessage('text', text='are', time=0)
+014160 note_on channel=2 note=74 velocity=95 time=0
+014160 note_off channel=2 note=74 velocity=100 time=120
+014280 MetaMessage('text', text='the', time=0)
+014280 note_on channel=2 note=76 velocity=95 time=0
+014280 note_off channel=2 note=76 velocity=100 time=120
+014400 MetaMessage('text', text='gals', time=0)
+014400 note_on channel=2 note=78 velocity=95 time=0
+014400 note_off channel=2 note=78 velocity=100 time=240
+014640 MetaMessage('text', text='for', time=0)
+014640 note_on channel=2 note=74 velocity=95 time=0
+014640 note_off channel=2 note=74 velocity=100 time=240
+014880 MetaMessage('text', text='me.', time=0)
+014880 note_on channel=2 note=74 velocity=95 time=0
+014880 note_off channel=2 note=74 velocity=100 time=480
+015360 MetaMessage('text', text='Hide', time=0)
+015360 note_on channel=2 note=86 velocity=95 time=0
+015360 note_off channel=2 note=86 velocity=100 time=360
+015720 MetaMessage('text', text='a', time=0)
+015720 note_on channel=2 note=86 velocity=95 time=0
+015720 note_off channel=2 note=86 velocity=100 time=120
+015840 MetaMessage('text', text='way', time=0)
+015840 note_on channel=2 note=86 velocity=95 time=0
+015840 note_off channel=2 note=86 velocity=100 time=240
+016080 MetaMessage('text', text='the', time=0)
+016080 note_on channel=2 note=81 velocity=95 time=0
+016080 note_off channel=2 note=81 velocity=100 time=240
+016320 MetaMessage('text', text='Charles', time=0)
+016320 note_on channel=2 note=84 velocity=95 time=0
+016320 note_off channel=2 note=84 velocity=100 time=240
+016560 MetaMessage('text', text='ton', time=0)
+016560 note_on channel=2 note=83 velocity=95 time=0
+016560 note_off channel=2 note=83 velocity=100 time=240
+016800 MetaMessage('text', text='gals,', time=0)
+016800 note_on channel=2 note=81 velocity=95 time=0
+016800 note_off channel=2 note=81 velocity=100 time=480
+017280 MetaMessage('text', text='Hide', time=0)
+017280 note_on channel=2 note=84 velocity=95 time=0
+017280 note_off channel=2 note=84 velocity=100 time=240
+017520 MetaMessage('text', text='a', time=0)
+017520 note_on channel=2 note=84 velocity=95 time=0
+017520 note_off channel=2 note=84 velocity=100 time=240
+017760 MetaMessage('text', text='way', time=0)
+017760 note_on channel=2 note=84 velocity=95 time=0
+017760 note_off channel=2 note=84 velocity=100 time=240
+018000 MetaMessage('text', text='the', time=0)
+018000 note_on channel=2 note=86 velocity=95 time=0
+018000 note_off channel=2 note=86 velocity=100 time=240
+018240 MetaMessage('text', text='Charles', time=0)
+018240 note_on channel=2 note=83 velocity=95 time=0
+018240 note_off channel=2 note=83 velocity=100 time=240
+018480 MetaMessage('text', text='ton', time=0)
+018480 note_on channel=2 note=79 velocity=95 time=0
+018480 note_off channel=2 note=79 velocity=100 time=240
+018720 MetaMessage('text', text='gals,', time=0)
+018720 note_on channel=2 note=79 velocity=95 time=0
+018720 note_off channel=2 note=79 velocity=100 time=480
+019200 MetaMessage('text', text='Hide', time=0)
+019200 note_on channel=2 note=86 velocity=95 time=0
+019200 note_off channel=2 note=86 velocity=100 time=360
+019560 MetaMessage('text', text='a', time=0)
+019560 note_on channel=2 note=86 velocity=95 time=0
+019560 note_off channel=2 note=86 velocity=100 time=120
+019680 MetaMessage('text', text='way', time=0)
+019680 note_on channel=2 note=86 velocity=95 time=0
+019680 note_off channel=2 note=86 velocity=100 time=240
+019920 MetaMessage('text', text='the', time=0)
+019920 note_on channel=2 note=81 velocity=95 time=0
+019920 note_off channel=2 note=81 velocity=100 time=240
+020160 MetaMessage('text', text='Charles', time=0)
+020160 note_on channel=2 note=84 velocity=95 time=0
+020160 note_off channel=2 note=84 velocity=100 time=240
+020400 MetaMessage('text', text='ton', time=0)
+020400 note_on channel=2 note=83 velocity=95 time=0
+020400 note_off channel=2 note=83 velocity=100 time=240
+020640 MetaMessage('text', text='gals,', time=0)
+020640 note_on channel=2 note=81 velocity=95 time=0
+020640 note_off channel=2 note=81 velocity=100 time=240
+020880 MetaMessage('text', text='And', time=0)
+020880 note_on channel=2 note=79 velocity=95 time=0
+020880 note_off channel=2 note=79 velocity=100 time=120
+021000 MetaMessage('text', text='the', time=0)
+021000 note_on channel=2 note=79 velocity=95 time=0
+021000 note_off channel=2 note=79 velocity=100 time=120
+021120 MetaMessage('text', text='Charles', time=0)
+021120 note_on channel=2 note=78 velocity=95 time=0
+021120 note_off channel=2 note=78 velocity=100 time=240
+021360 MetaMessage('text', text='ton', time=0)
+021360 note_on channel=2 note=74 velocity=95 time=0
+021360 note_off channel=2 note=74 velocity=100 time=240
+021600 MetaMessage('text', text='gals', time=0)
+021600 note_on channel=2 note=76 velocity=95 time=0
+021600 note_off channel=2 note=76 velocity=100 time=240
+021840 MetaMessage('text', text='are', time=0)
+021840 note_on channel=2 note=74 velocity=95 time=0
+021840 note_off channel=2 note=74 velocity=100 time=120
+021960 MetaMessage('text', text='the', time=0)
+021960 note_on channel=2 note=76 velocity=95 time=0
+021960 note_off channel=2 note=76 velocity=100 time=120
+022080 MetaMessage('text', text='gals', time=0)
+022080 note_on channel=2 note=78 velocity=95 time=0
+022080 note_off channel=2 note=78 velocity=100 time=240
+022320 MetaMessage('text', text='for', time=0)
+022320 note_on channel=2 note=74 velocity=95 time=0
+022320 note_off channel=2 note=74 velocity=100 time=240
+022560 MetaMessage('text', text='me.', time=0)
+022560 note_on channel=2 note=74 velocity=95 time=0
+022560 note_off channel=2 note=74 velocity=100 time=480
+023040 MetaMessage('text', text='Hide', time=0)
+023040 note_on channel=2 note=86 velocity=95 time=0
+023040 note_off channel=2 note=86 velocity=100 time=360
+023400 MetaMessage('text', text='a', time=0)
+023400 note_on channel=2 note=86 velocity=95 time=0
+023400 note_off channel=2 note=86 velocity=100 time=120
+023520 MetaMessage('text', text='way', time=0)
+023520 note_on channel=2 note=86 velocity=95 time=0
+023520 note_off channel=2 note=86 velocity=100 time=240
+023760 MetaMessage('text', text='the', time=0)
+023760 note_on channel=2 note=81 velocity=95 time=0
+023760 note_off channel=2 note=81 velocity=100 time=240
+024000 MetaMessage('text', text='Charles', time=0)
+024000 note_on channel=2 note=84 velocity=95 time=0
+024000 note_off channel=2 note=84 velocity=100 time=240
+024240 MetaMessage('text', text='ton', time=0)
+024240 note_on channel=2 note=83 velocity=95 time=0
+024240 note_off channel=2 note=83 velocity=100 time=240
+024480 MetaMessage('text', text='gals,', time=0)
+024480 note_on channel=2 note=81 velocity=95 time=0
+024480 note_off channel=2 note=81 velocity=100 time=480
+024960 MetaMessage('text', text='Hide', time=0)
+024960 note_on channel=2 note=84 velocity=95 time=0
+024960 note_off channel=2 note=84 velocity=100 time=240
+025200 MetaMessage('text', text='a', time=0)
+025200 note_on channel=2 note=84 velocity=95 time=0
+025200 note_off channel=2 note=84 velocity=100 time=240
+025440 MetaMessage('text', text='way', time=0)
+025440 note_on channel=2 note=84 velocity=95 time=0
+025440 note_off channel=2 note=84 velocity=100 time=240
+025680 MetaMessage('text', text='the', time=0)
+025680 note_on channel=2 note=86 velocity=95 time=0
+025680 note_off channel=2 note=86 velocity=100 time=240
+025920 MetaMessage('text', text='Charles', time=0)
+025920 note_on channel=2 note=83 velocity=95 time=0
+025920 note_off channel=2 note=83 velocity=100 time=240
+026160 MetaMessage('text', text='ton', time=0)
+026160 note_on channel=2 note=79 velocity=95 time=0
+026160 note_off channel=2 note=79 velocity=100 time=240
+026400 MetaMessage('text', text='gals,', time=0)
+026400 note_on channel=2 note=79 velocity=95 time=0
+026400 note_off channel=2 note=79 velocity=100 time=480
+026880 MetaMessage('text', text='Hide', time=0)
+026880 note_on channel=2 note=86 velocity=95 time=0
+026880 note_off channel=2 note=86 velocity=100 time=360
+027240 MetaMessage('text', text='a', time=0)
+027240 note_on channel=2 note=86 velocity=95 time=0
+027240 note_off channel=2 note=86 velocity=100 time=120
+027360 MetaMessage('text', text='way', time=0)
+027360 note_on channel=2 note=86 velocity=95 time=0
+027360 note_off channel=2 note=86 velocity=100 time=240
+027600 MetaMessage('text', text='the', time=0)
+027600 note_on channel=2 note=81 velocity=95 time=0
+027600 note_off channel=2 note=81 velocity=100 time=240
+027840 MetaMessage('text', text='Charles', time=0)
+027840 note_on channel=2 note=84 velocity=95 time=0
+027840 note_off channel=2 note=84 velocity=100 time=240
+028080 MetaMessage('text', text='ton', time=0)
+028080 note_on channel=2 note=83 velocity=95 time=0
+028080 note_off channel=2 note=83 velocity=100 time=240
+028320 MetaMessage('text', text='gals,', time=0)
+028320 note_on channel=2 note=81 velocity=95 time=0
+028320 note_off channel=2 note=81 velocity=100 time=240
+028560 MetaMessage('text', text='And', time=0)
+028560 note_on channel=2 note=79 velocity=95 time=0
+028560 note_off channel=2 note=79 velocity=100 time=120
+028680 MetaMessage('text', text='the', time=0)
+028680 note_on channel=2 note=79 velocity=95 time=0
+028680 note_off channel=2 note=79 velocity=100 time=120
+028800 MetaMessage('text', text='Charles', time=0)
+028800 note_on channel=2 note=78 velocity=95 time=0
+028800 note_off channel=2 note=78 velocity=100 time=240
+029040 MetaMessage('text', text='ton', time=0)
+029040 note_on channel=2 note=74 velocity=95 time=0
+029040 note_off channel=2 note=74 velocity=100 time=240
+029280 MetaMessage('text', text='gals', time=0)
+029280 note_on channel=2 note=76 velocity=95 time=0
+029280 note_off channel=2 note=76 velocity=100 time=240
+029520 MetaMessage('text', text='are', time=0)
+029520 note_on channel=2 note=74 velocity=95 time=0
+029520 note_off channel=2 note=74 velocity=100 time=120
+029640 MetaMessage('text', text='the', time=0)
+029640 note_on channel=2 note=76 velocity=95 time=0
+029640 note_off channel=2 note=76 velocity=100 time=120
+029760 MetaMessage('text', text='gals', time=0)
+029760 note_on channel=2 note=78 velocity=95 time=0
+029760 note_off channel=2 note=78 velocity=100 time=240
+030000 MetaMessage('text', text='for', time=0)
+030000 note_on channel=2 note=74 velocity=95 time=0
+030000 note_off channel=2 note=74 velocity=100 time=240
+030240 MetaMessage('text', text='me.', time=0)
+030240 note_on channel=2 note=74 velocity=95 time=0
+030240 note_off channel=2 note=74 velocity=100 time=480
+030720 MetaMessage('end_of_track', time=0)
+
+
+
+=== All-Messages for Track 2 | Charleston Gals  - 
+000000 MetaMessage('track_name', name='Charleston Gals  - ', time=0)
+000000 MetaMessage('end_of_track', time=0)
+
+

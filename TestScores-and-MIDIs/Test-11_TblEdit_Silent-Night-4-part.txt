@@ -1,0 +1,958 @@
+=== DEBUG | song.trackInfo 2D Matrix Values |---
+Track-0: ['Silent Night - ', -1, 'D', -1, True, -1, -1, 0, -1]
+Track-1: ['Basic Melody', 0, 'X', 4, True, 1, 0, 17280, -1]
+Track-2: ['High Harmony', 3, 'X', 4, True, 2, 0, 17280, -1]
+Track-3: ['Harmony', 5, 'X', 4, True, 3, 0, 17280, -1]
+Track-4: ['Bass', 7, 'X', 32, True, 4, 0, 17280, -1]
+Track-5: ['Melody', 10, 'X', 4, True, 5, 0, 17280, -1]
+Track-6: ['Silent Night - ', -1, 'X', -1, False, -1, -1, 0, -1]
+Track-7: ['Count In', 12, 'C', 117, True, -1, -1, -1, -1]
+_finalBeatPattern: 1
+COUNT-IN SEQUENCE: [92;1m | 1 2 3 |[0m <-- on MIDI channel # 12
+
+SONG INFORMATION:
+        Source Filepath...................................TestScores-and-MIDIs/Test-11_TblEdit_Silent-Night-4-part.mid
+[93;1m    [1] [0m# Measures of Count-In............................[93;1m1[0m
+[93;1m    [2] [0mBeat Pickup Starts On.............................[93;1m0.0[0m
+[93;1m    [3] [0mCount on Half-Beats?..............................[93;1mFalse[0m
+[93;1m    [4] [0mKey Signature.....................................[93;1mD[0m
+[93;1m    [5] [0mTime Signature....................................[93;1m3/4[0m
+[93;1m    [6] [0mSong Play-Throughs................................[93;1m1[0m
+        Tempo (BPM).......................................120
+        Tempo (MIDI micros)...............................500000
+        Song Length Before Count-In (Beats)...............72
+        Song Length Before Count-In (Seconds).............36
+        Song Length Before Count-In (Ticks)...............17280
+        Ticks Per Beat....................................240
+        Track-0 (ch--1 key-D): Silent Night - ............Keep
+        Track-1 (ch-0 key-X): Basic Melody................Keep
+        Track-2 (ch-3 key-X): High Harmony................Keep
+        Track-3 (ch-5 key-X): Harmony.....................Keep
+        Track-4 (ch-7 key-X): Bass........................Keep
+        Track-5 (ch-10 key-X): Melody.....................Keep
+        Track-6 (ch--1 key-X): Silent Night - ............Remove
+        Track-7 (ch-12 key-C): Count In...................Keep
+
+=== Meta-Messages for Track | Silent Night - 
+000000 MetaMessage('copyright', text='TablEdited by Melanie Johnston', time=0)
+000000 MetaMessage('track_name', name='Silent Night - ', time=0)
+000000 MetaMessage('set_tempo', tempo=666666, time=0)
+000000 MetaMessage('time_signature', numerator=3, denominator=4, clocks_per_click=36, notated_32nd_notes_per_beat=8, time=0)
+000000 MetaMessage('key_signature', key='D', time=0)
+000000 MetaMessage('end_of_track', time=0)
+
+=== Meta-Messages for Track | Basic Melody
+000000 MetaMessage('track_name', name='Basic Melody', time=0)
+000000 MetaMessage('text', text='Melody', time=0)
+000000 MetaMessage('text', text='D', time=0)
+002880 MetaMessage('text', text='A', time=0)
+003600 MetaMessage('text', text='A7', time=0)
+004320 MetaMessage('text', text='D', time=0)
+005760 MetaMessage('text', text='G', time=0)
+007200 MetaMessage('text', text='D', time=0)
+008640 MetaMessage('text', text='G', time=0)
+010080 MetaMessage('text', text='D', time=0)
+011520 MetaMessage('text', text='A', time=0)
+012240 MetaMessage('text', text='A7', time=15)
+012960 MetaMessage('text', text='D', time=0)
+015120 MetaMessage('text', text='A7', time=0)
+015840 MetaMessage('text', text='D', time=0)
+017280 MetaMessage('end_of_track', time=0)
+
+=== Meta-Messages for Track | High Harmony
+000000 MetaMessage('track_name', name='High Harmony', time=0)
+000000 MetaMessage('text', text='Harmony 2', time=0)
+017280 MetaMessage('end_of_track', time=0)
+
+=== Meta-Messages for Track | Harmony
+000000 MetaMessage('track_name', name='Harmony', time=0)
+000000 MetaMessage('text', text='Harmony 1', time=0)
+017280 MetaMessage('end_of_track', time=0)
+
+=== Meta-Messages for Track | Bass
+000000 MetaMessage('track_name', name='Bass', time=0)
+000000 MetaMessage('text', text='Bass', time=0)
+017280 MetaMessage('end_of_track', time=0)
+
+=== Meta-Messages for Track | Melody
+000000 MetaMessage('track_name', name='Melody', time=0)
+000000 MetaMessage('text', text='D', time=15)
+000015 MetaMessage('text', text='Basic Melody', time=0)
+002880 MetaMessage('text', text='A', time=15)
+003600 MetaMessage('text', text='A7', time=15)
+004320 MetaMessage('text', text='D', time=15)
+005760 MetaMessage('text', text='G', time=15)
+007200 MetaMessage('text', text='D', time=15)
+008640 MetaMessage('text', text='G', time=15)
+010080 MetaMessage('text', text='D', time=15)
+011520 MetaMessage('text', text='A', time=15)
+012240 MetaMessage('text', text='A7', time=15)
+012960 MetaMessage('text', text='D', time=15)
+015120 MetaMessage('text', text='A7', time=15)
+015840 MetaMessage('text', text='D', time=15)
+017280 MetaMessage('end_of_track', time=0)
+
+=== Meta-Messages for Track | Silent Night - 
+000000 MetaMessage('track_name', name='Silent Night - ', time=0)
+000000 MetaMessage('end_of_track', time=0)
+
+--------------------------------------------------------------------------------
+Number of Tracks in outputMIDI: 7
+--------------------------------------------------------------------------------
+
+=== All-Messages for Track 0 | Silent Night - 
+000000 MetaMessage('copyright', text='TablEdited by Melanie Johnston', time=0)
+000000 MetaMessage('track_name', name='Silent Night - ', time=0)
+000000 MetaMessage('set_tempo', tempo=666666, time=0)
+000000 MetaMessage('time_signature', numerator=3, denominator=4, clocks_per_click=36, notated_32nd_notes_per_beat=8, time=0)
+000000 MetaMessage('key_signature', key='D', time=0)
+000000 MetaMessage('end_of_track', time=0)
+
+
+
+=== All-Messages for Track 1 | Basic Melody
+000000 MetaMessage('track_name', name='Basic Melody', time=0)
+000000 program_change channel=0 program=4 time=0
+000000 program_change channel=1 program=4 time=0
+000000 program_change channel=2 program=4 time=0
+000000 control_change channel=0 control=101 value=0 time=0
+000000 control_change channel=0 control=100 value=0 time=0
+000000 control_change channel=0 control=6 value=8 time=0
+000000 control_change channel=0 control=101 value=127 time=0
+000000 control_change channel=0 control=100 value=127 time=0
+000000 pitchwheel channel=0 pitch=0 time=0
+000000 control_change channel=1 control=101 value=0 time=0
+000000 control_change channel=1 control=100 value=0 time=0
+000000 control_change channel=1 control=6 value=8 time=0
+000000 control_change channel=1 control=101 value=127 time=0
+000000 control_change channel=1 control=100 value=127 time=0
+000000 pitchwheel channel=1 pitch=0 time=0
+000000 control_change channel=2 control=101 value=0 time=0
+000000 control_change channel=2 control=100 value=0 time=0
+000000 control_change channel=2 control=6 value=8 time=0
+000000 control_change channel=2 control=101 value=127 time=0
+000000 control_change channel=2 control=100 value=127 time=0
+000000 pitchwheel channel=2 pitch=0 time=0
+000000 control_change channel=0 control=10 value=63 time=0
+000000 control_change channel=1 control=10 value=63 time=0
+000000 control_change channel=2 control=10 value=63 time=0
+000000 control_change channel=0 control=93 value=0 time=0
+000000 control_change channel=0 control=91 value=0 time=0
+000000 control_change channel=1 control=93 value=0 time=0
+000000 control_change channel=1 control=91 value=0 time=0
+000000 control_change channel=2 control=93 value=0 time=0
+000000 control_change channel=2 control=91 value=0 time=0
+000000 MetaMessage('text', text='Melody', time=0)
+000000 MetaMessage('text', text='D', time=0)
+000000 note_on channel=2 note=69 velocity=95 time=0
+000000 note_off channel=2 note=69 velocity=100 time=120
+000120 note_on channel=1 note=62 velocity=95 time=0
+000120 note_off channel=1 note=62 velocity=100 time=120
+000240 note_on channel=0 note=54 velocity=95 time=0
+000240 note_off channel=0 note=54 velocity=100 time=120
+000360 note_on channel=2 note=71 velocity=95 time=0
+000360 note_off channel=2 note=71 velocity=100 time=120
+000480 note_on channel=2 note=69 velocity=95 time=0
+000480 note_off channel=2 note=69 velocity=100 time=240
+000720 note_on channel=2 note=66 velocity=95 time=0
+000720 note_off channel=2 note=66 velocity=100 time=120
+000840 note_on channel=1 note=62 velocity=95 time=0
+000840 note_off channel=1 note=62 velocity=100 time=120
+000960 note_on channel=0 note=54 velocity=95 time=0
+000960 note_off channel=0 note=54 velocity=100 time=120
+001080 note_on channel=1 note=62 velocity=95 time=0
+001080 note_off channel=1 note=62 velocity=100 time=120
+001200 note_on channel=2 note=66 velocity=95 time=0
+001200 note_off channel=2 note=66 velocity=100 time=240
+001440 note_on channel=2 note=69 velocity=95 time=0
+001440 note_off channel=2 note=69 velocity=100 time=120
+001560 note_on channel=1 note=62 velocity=95 time=0
+001560 note_off channel=1 note=62 velocity=100 time=120
+001680 note_on channel=0 note=54 velocity=95 time=0
+001680 note_off channel=0 note=54 velocity=100 time=120
+001800 note_on channel=2 note=71 velocity=95 time=0
+001800 note_off channel=2 note=71 velocity=100 time=120
+001920 note_on channel=2 note=69 velocity=95 time=0
+001920 note_off channel=2 note=69 velocity=100 time=240
+002160 note_on channel=2 note=66 velocity=95 time=0
+002160 note_off channel=2 note=66 velocity=100 time=120
+002280 note_on channel=1 note=62 velocity=95 time=0
+002280 note_off channel=1 note=62 velocity=100 time=120
+002400 note_on channel=0 note=54 velocity=95 time=0
+002400 note_off channel=0 note=54 velocity=100 time=120
+002520 note_on channel=1 note=62 velocity=95 time=0
+002520 note_off channel=1 note=62 velocity=100 time=120
+002640 note_on channel=2 note=66 velocity=95 time=0
+002640 note_off channel=2 note=66 velocity=100 time=240
+002880 MetaMessage('text', text='A', time=0)
+002880 note_on channel=2 note=76 velocity=95 time=0
+002880 note_off channel=2 note=76 velocity=100 time=120
+003000 note_on channel=1 note=69 velocity=95 time=0
+003000 note_off channel=1 note=69 velocity=100 time=120
+003120 note_on channel=0 note=61 velocity=95 time=0
+003120 note_off channel=0 note=61 velocity=100 time=120
+003240 note_on channel=1 note=69 velocity=95 time=0
+003240 note_off channel=1 note=69 velocity=100 time=120
+003360 note_on channel=2 note=76 velocity=95 time=0
+003360 note_off channel=2 note=76 velocity=100 time=240
+003600 MetaMessage('text', text='A7', time=0)
+003600 note_on channel=2 note=73 velocity=95 time=0
+003600 note_off channel=2 note=73 velocity=100 time=120
+003720 note_on channel=1 note=64 velocity=95 time=0
+003720 note_off channel=1 note=64 velocity=100 time=120
+003840 note_on channel=0 note=57 velocity=95 time=0
+003840 note_off channel=0 note=57 velocity=100 time=120
+003960 note_on channel=1 note=64 velocity=95 time=0
+003960 note_off channel=1 note=64 velocity=100 time=120
+004080 note_on channel=2 note=73 velocity=95 time=0
+004080 note_off channel=2 note=73 velocity=100 time=120
+004200 note_on channel=1 note=64 velocity=95 time=0
+004200 note_off channel=1 note=64 velocity=100 time=120
+004320 MetaMessage('text', text='D', time=0)
+004320 note_on channel=2 note=74 velocity=95 time=0
+004320 note_off channel=2 note=74 velocity=100 time=120
+004440 note_on channel=1 note=66 velocity=95 time=0
+004440 note_off channel=1 note=66 velocity=100 time=120
+004560 note_on channel=0 note=57 velocity=95 time=0
+004560 note_off channel=0 note=57 velocity=100 time=120
+004680 note_on channel=1 note=66 velocity=95 time=0
+004680 note_off channel=1 note=66 velocity=100 time=120
+004800 note_on channel=2 note=74 velocity=95 time=0
+004800 note_off channel=2 note=74 velocity=100 time=240
+005040 note_on channel=2 note=69 velocity=95 time=0
+005040 note_off channel=2 note=69 velocity=100 time=120
+005160 note_on channel=1 note=62 velocity=95 time=0
+005160 note_off channel=1 note=62 velocity=100 time=120
+005280 note_on channel=0 note=54 velocity=95 time=0
+005280 note_off channel=0 note=54 velocity=100 time=120
+005400 note_on channel=1 note=62 velocity=95 time=0
+005400 note_off channel=1 note=62 velocity=100 time=120
+005520 note_on channel=2 note=69 velocity=95 time=0
+005520 note_off channel=2 note=69 velocity=100 time=120
+005640 note_on channel=1 note=62 velocity=95 time=0
+005640 note_off channel=1 note=62 velocity=100 time=120
+005760 MetaMessage('text', text='G', time=0)
+005760 note_on channel=2 note=71 velocity=95 time=0
+005760 note_off channel=2 note=71 velocity=100 time=120
+005880 note_on channel=1 note=62 velocity=95 time=0
+005880 note_off channel=1 note=62 velocity=100 time=120
+006000 note_on channel=0 note=55 velocity=95 time=0
+006000 note_off channel=0 note=55 velocity=100 time=120
+006120 note_on channel=1 note=62 velocity=95 time=0
+006120 note_off channel=1 note=62 velocity=100 time=120
+006240 note_on channel=2 note=71 velocity=95 time=0
+006240 note_off channel=2 note=71 velocity=100 time=240
+006480 note_on channel=2 note=74 velocity=95 time=0
+006480 note_off channel=2 note=74 velocity=100 time=120
+006600 note_on channel=1 note=67 velocity=95 time=0
+006600 note_off channel=1 note=67 velocity=100 time=120
+006720 note_on channel=0 note=59 velocity=95 time=0
+006720 note_off channel=0 note=59 velocity=100 time=120
+006840 note_on channel=2 note=73 velocity=95 time=0
+006840 note_off channel=2 note=73 velocity=100 time=120
+006960 note_on channel=2 note=71 velocity=95 time=0
+006960 note_off channel=2 note=71 velocity=100 time=240
+007200 MetaMessage('text', text='D', time=0)
+007200 note_on channel=2 note=69 velocity=95 time=0
+007200 note_off channel=2 note=69 velocity=100 time=120
+007320 note_on channel=1 note=62 velocity=95 time=0
+007320 note_off channel=1 note=62 velocity=100 time=120
+007440 note_on channel=0 note=54 velocity=95 time=0
+007440 note_off channel=0 note=54 velocity=100 time=120
+007560 note_on channel=2 note=71 velocity=95 time=0
+007560 note_off channel=2 note=71 velocity=100 time=120
+007680 note_on channel=2 note=69 velocity=95 time=0
+007680 note_off channel=2 note=69 velocity=100 time=240
+007920 note_on channel=2 note=66 velocity=95 time=0
+007920 note_off channel=2 note=66 velocity=100 time=120
+008040 note_on channel=1 note=62 velocity=95 time=0
+008040 note_off channel=1 note=62 velocity=100 time=120
+008160 note_on channel=0 note=54 velocity=95 time=0
+008160 note_off channel=0 note=54 velocity=100 time=120
+008280 note_on channel=1 note=62 velocity=95 time=0
+008280 note_off channel=1 note=62 velocity=100 time=120
+008400 note_on channel=2 note=66 velocity=95 time=0
+008400 note_off channel=2 note=66 velocity=100 time=240
+008640 MetaMessage('text', text='G', time=0)
+008640 note_on channel=2 note=71 velocity=95 time=0
+008640 note_off channel=2 note=71 velocity=100 time=120
+008760 note_on channel=1 note=67 velocity=95 time=0
+008760 note_off channel=1 note=67 velocity=100 time=120
+008880 note_on channel=0 note=59 velocity=95 time=0
+008880 note_off channel=0 note=59 velocity=100 time=120
+009000 note_on channel=1 note=67 velocity=95 time=0
+009000 note_off channel=1 note=67 velocity=100 time=120
+009120 note_on channel=2 note=71 velocity=95 time=0
+009120 note_off channel=2 note=71 velocity=100 time=240
+009360 note_on channel=2 note=74 velocity=95 time=0
+009360 note_off channel=2 note=74 velocity=100 time=120
+009480 note_on channel=1 note=67 velocity=95 time=0
+009480 note_off channel=1 note=67 velocity=100 time=120
+009600 note_on channel=0 note=59 velocity=95 time=0
+009600 note_off channel=0 note=59 velocity=100 time=120
+009720 note_on channel=2 note=73 velocity=95 time=0
+009720 note_off channel=2 note=73 velocity=100 time=120
+009840 note_on channel=2 note=71 velocity=95 time=0
+009840 note_off channel=2 note=71 velocity=100 time=240
+010080 MetaMessage('text', text='D', time=0)
+010080 note_on channel=2 note=69 velocity=95 time=0
+010080 note_off channel=2 note=69 velocity=100 time=120
+010200 note_on channel=1 note=66 velocity=95 time=0
+010200 note_off channel=1 note=66 velocity=100 time=120
+010320 note_on channel=0 note=50 velocity=95 time=0
+010320 note_off channel=0 note=50 velocity=100 time=120
+010440 note_on channel=2 note=71 velocity=95 time=0
+010440 note_off channel=2 note=71 velocity=100 time=120
+010560 note_on channel=2 note=69 velocity=95 time=0
+010560 note_off channel=2 note=69 velocity=100 time=240
+010800 note_on channel=2 note=66 velocity=95 time=0
+010800 note_off channel=2 note=66 velocity=100 time=240
+011040 note_on channel=0 note=50 velocity=95 time=0
+011040 note_off channel=0 note=50 velocity=100 time=240
+011280 note_on channel=2 note=66 velocity=95 time=0
+011280 note_off channel=2 note=66 velocity=100 time=240
+011520 MetaMessage('text', text='A', time=0)
+011520 note_on channel=2 note=76 velocity=95 time=0
+011520 note_off channel=2 note=76 velocity=100 time=120
+011640 note_on channel=1 note=69 velocity=95 time=0
+011640 note_off channel=1 note=69 velocity=100 time=120
+011760 note_on channel=0 note=61 velocity=95 time=0
+011760 note_off channel=0 note=61 velocity=100 time=120
+011880 note_on channel=1 note=69 velocity=95 time=0
+011880 note_off channel=1 note=69 velocity=100 time=120
+012000 note_on channel=2 note=76 velocity=95 time=0
+012000 note_off channel=2 note=76 velocity=100 time=240
+012240 note_on channel=0 note=64 velocity=95 time=0
+012240 note_on channel=1 note=57 velocity=95 time=0
+012240 note_on channel=2 note=79 velocity=95 time=0
+012240 MetaMessage('text', text='A7', time=15)
+012255 note_off channel=0 note=64 velocity=100 time=225
+012480 note_off channel=1 note=57 velocity=100 time=0
+012480 note_off channel=2 note=79 velocity=100 time=120
+012600 note_on channel=2 note=76 velocity=95 time=0
+012600 note_off channel=2 note=76 velocity=100 time=120
+012720 note_on channel=2 note=73 velocity=95 time=0
+012720 note_off channel=2 note=73 velocity=100 time=240
+012960 MetaMessage('text', text='D', time=0)
+012960 note_on channel=2 note=74 velocity=95 time=0
+012960 note_off channel=2 note=74 velocity=100 time=120
+013080 note_on channel=1 note=66 velocity=95 time=0
+013080 note_off channel=1 note=66 velocity=100 time=120
+013200 note_on channel=0 note=57 velocity=95 time=0
+013200 note_off channel=0 note=57 velocity=100 time=120
+013320 note_on channel=1 note=66 velocity=95 time=0
+013320 note_off channel=1 note=66 velocity=100 time=120
+013440 note_on channel=2 note=74 velocity=95 time=0
+013440 note_off channel=2 note=74 velocity=100 time=240
+013680 note_on channel=0 note=62 velocity=95 time=0
+013680 note_on channel=1 note=69 velocity=95 time=0
+013680 note_on channel=2 note=78 velocity=95 time=0
+013680 note_off channel=0 note=62 velocity=100 time=720
+014400 note_off channel=1 note=69 velocity=100 time=0
+014400 note_off channel=2 note=78 velocity=100 time=0
+014400 note_on channel=0 note=57 velocity=95 time=0
+014400 note_on channel=1 note=66 velocity=95 time=0
+014400 note_on channel=2 note=74 velocity=95 time=0
+014400 note_off channel=0 note=57 velocity=100 time=240
+014640 note_off channel=1 note=66 velocity=100 time=0
+014640 note_off channel=2 note=74 velocity=100 time=0
+014640 note_on channel=2 note=69 velocity=95 time=0
+014640 note_off channel=2 note=69 velocity=100 time=240
+014880 note_on channel=1 note=66 velocity=95 time=0
+014880 note_off channel=1 note=66 velocity=100 time=240
+015120 MetaMessage('text', text='A7', time=0)
+015120 note_on channel=2 note=69 velocity=95 time=0
+015120 note_off channel=2 note=69 velocity=100 time=240
+015360 note_on channel=0 note=52 velocity=95 time=0
+015360 note_off channel=0 note=52 velocity=100 time=120
+015480 note_on channel=2 note=67 velocity=95 time=0
+015480 note_off channel=2 note=67 velocity=100 time=120
+015600 note_on channel=2 note=64 velocity=95 time=0
+015600 note_off channel=2 note=64 velocity=100 time=240
+015840 MetaMessage('text', text='D', time=0)
+015840 note_on channel=2 note=62 velocity=95 time=0
+015840 note_off channel=2 note=62 velocity=100 time=120
+015960 note_on channel=1 note=57 velocity=95 time=0
+015960 note_off channel=1 note=57 velocity=100 time=120
+016080 note_on channel=0 note=54 velocity=95 time=0
+016080 note_on channel=1 note=57 velocity=95 time=120
+016200 note_off channel=0 note=54 velocity=100 time=120
+016320 note_off channel=1 note=57 velocity=100 time=0
+016320 note_on channel=0 note=52 velocity=95 time=0
+016320 note_on channel=1 note=57 velocity=95 time=120
+016440 note_off channel=0 note=52 velocity=100 time=120
+016560 note_off channel=1 note=57 velocity=100 time=0
+016560 note_on channel=0 note=50 velocity=95 time=0
+016560 note_on channel=1 note=57 velocity=95 time=0
+016560 note_on channel=2 note=62 velocity=95 time=0
+016560 note_off channel=0 note=50 velocity=100 time=720
+017280 note_off channel=1 note=57 velocity=100 time=0
+017280 note_off channel=2 note=62 velocity=100 time=0
+017280 MetaMessage('end_of_track', time=0)
+
+
+
+=== All-Messages for Track 2 | High Harmony
+000000 MetaMessage('track_name', name='High Harmony', time=0)
+000000 program_change channel=3 program=4 time=0
+000000 program_change channel=4 program=4 time=0
+000000 control_change channel=3 control=101 value=0 time=0
+000000 control_change channel=3 control=100 value=0 time=0
+000000 control_change channel=3 control=6 value=8 time=0
+000000 control_change channel=3 control=101 value=127 time=0
+000000 control_change channel=3 control=100 value=127 time=0
+000000 pitchwheel channel=3 pitch=0 time=0
+000000 control_change channel=4 control=101 value=0 time=0
+000000 control_change channel=4 control=100 value=0 time=0
+000000 control_change channel=4 control=6 value=8 time=0
+000000 control_change channel=4 control=101 value=127 time=0
+000000 control_change channel=4 control=100 value=127 time=0
+000000 pitchwheel channel=4 pitch=0 time=0
+000000 control_change channel=3 control=10 value=63 time=0
+000000 control_change channel=4 control=10 value=63 time=0
+000000 control_change channel=3 control=93 value=0 time=0
+000000 control_change channel=3 control=91 value=0 time=0
+000000 control_change channel=4 control=93 value=0 time=0
+000000 control_change channel=4 control=91 value=0 time=0
+000000 MetaMessage('text', text='Harmony 2', time=0)
+000000 note_on channel=3 note=74 velocity=95 time=0
+000000 note_off channel=3 note=74 velocity=100 time=720
+000720 note_on channel=3 note=78 velocity=95 time=0
+000720 note_off channel=3 note=78 velocity=100 time=240
+000960 note_on channel=3 note=74 velocity=95 time=0
+000960 note_off channel=3 note=74 velocity=100 time=240
+001200 note_on channel=3 note=69 velocity=95 time=0
+001200 note_off channel=3 note=69 velocity=100 time=240
+001440 note_on channel=3 note=74 velocity=95 time=0
+001440 note_off channel=3 note=74 velocity=100 time=720
+002160 note_on channel=3 note=78 velocity=95 time=0
+002160 note_off channel=3 note=78 velocity=100 time=240
+002400 note_on channel=3 note=74 velocity=95 time=0
+002400 note_off channel=3 note=74 velocity=100 time=240
+002640 note_on channel=3 note=69 velocity=95 time=0
+002640 note_off channel=3 note=69 velocity=100 time=240
+002880 note_on channel=3 note=73 velocity=95 time=0
+002880 note_off channel=3 note=73 velocity=100 time=480
+003360 note_on channel=3 note=73 velocity=95 time=0
+003360 note_off channel=3 note=73 velocity=100 time=240
+003600 note_on channel=3 note=76 velocity=95 time=0
+003600 note_off channel=3 note=76 velocity=100 time=240
+003840 note_on channel=3 note=74 velocity=95 time=0
+003840 note_off channel=3 note=74 velocity=100 time=240
+004080 note_on channel=3 note=73 velocity=95 time=0
+004080 note_off channel=3 note=73 velocity=100 time=240
+004320 note_on channel=3 note=78 velocity=95 time=0
+004320 note_off channel=3 note=78 velocity=100 time=480
+004800 note_on channel=3 note=78 velocity=95 time=0
+004800 note_off channel=3 note=78 velocity=100 time=240
+005040 note_on channel=3 note=74 velocity=95 time=0
+005040 note_off channel=3 note=74 velocity=100 time=720
+005760 note_on channel=3 note=74 velocity=95 time=0
+005760 note_off channel=3 note=74 velocity=100 time=480
+006240 note_on channel=3 note=74 velocity=95 time=0
+006240 note_off channel=3 note=74 velocity=100 time=240
+006480 note_on channel=3 note=79 velocity=95 time=0
+006480 note_off channel=3 note=79 velocity=100 time=720
+007200 note_on channel=3 note=74 velocity=95 time=0
+007200 note_off channel=3 note=74 velocity=100 time=480
+007680 note_on channel=3 note=74 velocity=95 time=0
+007680 note_off channel=3 note=74 velocity=100 time=240
+007920 note_on channel=3 note=69 velocity=95 time=0
+007920 note_off channel=3 note=69 velocity=100 time=720
+008640 note_on channel=3 note=74 velocity=95 time=0
+008640 note_off channel=3 note=74 velocity=100 time=480
+009120 note_on channel=3 note=74 velocity=95 time=0
+009120 note_off channel=3 note=74 velocity=100 time=240
+009360 note_on channel=3 note=79 velocity=95 time=0
+009360 note_off channel=3 note=79 velocity=100 time=720
+010080 note_on channel=3 note=74 velocity=95 time=0
+010080 note_off channel=3 note=74 velocity=100 time=480
+010560 note_on channel=3 note=74 velocity=95 time=0
+010560 note_off channel=3 note=74 velocity=100 time=240
+010800 note_on channel=3 note=69 velocity=95 time=0
+010800 note_off channel=3 note=69 velocity=100 time=720
+011520 note_on channel=3 note=73 velocity=95 time=0
+011520 note_off channel=3 note=73 velocity=100 time=480
+012000 note_on channel=3 note=73 velocity=95 time=0
+012000 note_off channel=3 note=73 velocity=100 time=240
+012240 note_on channel=3 note=76 velocity=95 time=0
+012240 note_off channel=3 note=76 velocity=100 time=480
+012720 note_on channel=3 note=69 velocity=95 time=0
+012720 note_off channel=3 note=69 velocity=100 time=240
+012960 note_on channel=3 note=69 velocity=95 time=0
+012960 note_off channel=3 note=69 velocity=100 time=720
+013680 note_on channel=3 note=74 velocity=95 time=0
+013680 note_off channel=3 note=74 velocity=100 time=720
+014400 note_on channel=3 note=78 velocity=95 time=0
+014400 note_off channel=3 note=78 velocity=100 time=240
+014640 note_on channel=3 note=74 velocity=95 time=0
+014640 note_off channel=3 note=74 velocity=100 time=240
+014880 note_on channel=3 note=69 velocity=95 time=0
+014880 note_off channel=3 note=69 velocity=100 time=240
+015120 note_on channel=3 note=69 velocity=95 time=0
+015120 note_off channel=3 note=69 velocity=100 time=480
+015600 note_on channel=3 note=73 velocity=95 time=0
+015600 note_off channel=3 note=73 velocity=100 time=240
+015840 note_on channel=3 note=74 velocity=95 time=0
+015840 note_off channel=3 note=74 velocity=100 time=720
+016560 note_on channel=3 note=74 velocity=95 time=0
+016560 note_off channel=3 note=74 velocity=100 time=720
+017280 MetaMessage('end_of_track', time=0)
+
+
+
+=== All-Messages for Track 3 | Harmony
+000000 MetaMessage('track_name', name='Harmony', time=0)
+000000 program_change channel=5 program=4 time=0
+000000 program_change channel=6 program=4 time=0
+000000 control_change channel=5 control=101 value=0 time=0
+000000 control_change channel=5 control=100 value=0 time=0
+000000 control_change channel=5 control=6 value=8 time=0
+000000 control_change channel=5 control=101 value=127 time=0
+000000 control_change channel=5 control=100 value=127 time=0
+000000 pitchwheel channel=5 pitch=0 time=0
+000000 control_change channel=6 control=101 value=0 time=0
+000000 control_change channel=6 control=100 value=0 time=0
+000000 control_change channel=6 control=6 value=8 time=0
+000000 control_change channel=6 control=101 value=127 time=0
+000000 control_change channel=6 control=100 value=127 time=0
+000000 pitchwheel channel=6 pitch=0 time=0
+000000 control_change channel=5 control=10 value=63 time=0
+000000 control_change channel=6 control=10 value=63 time=0
+000000 control_change channel=5 control=93 value=0 time=0
+000000 control_change channel=5 control=91 value=0 time=0
+000000 control_change channel=6 control=93 value=0 time=0
+000000 control_change channel=6 control=91 value=0 time=0
+000000 MetaMessage('text', text='Harmony 1', time=0)
+000000 note_on channel=5 note=66 velocity=95 time=0
+000000 note_off channel=5 note=66 velocity=100 time=360
+000360 note_on channel=5 note=67 velocity=95 time=0
+000360 note_off channel=5 note=67 velocity=100 time=120
+000480 note_on channel=5 note=66 velocity=95 time=0
+000480 note_off channel=5 note=66 velocity=100 time=240
+000720 note_on channel=5 note=62 velocity=95 time=0
+000720 note_off channel=5 note=62 velocity=100 time=720
+001440 note_on channel=5 note=66 velocity=95 time=0
+001440 note_off channel=5 note=66 velocity=100 time=360
+001800 note_on channel=5 note=67 velocity=95 time=0
+001800 note_off channel=5 note=67 velocity=100 time=120
+001920 note_on channel=5 note=66 velocity=95 time=0
+001920 note_off channel=5 note=66 velocity=100 time=240
+002160 note_on channel=5 note=62 velocity=95 time=0
+002160 note_off channel=5 note=62 velocity=100 time=720
+002880 note_on channel=5 note=73 velocity=95 time=0
+002880 note_off channel=5 note=73 velocity=100 time=480
+003360 note_on channel=5 note=73 velocity=95 time=0
+003360 note_off channel=5 note=73 velocity=100 time=240
+003600 note_on channel=5 note=69 velocity=95 time=0
+003600 note_off channel=5 note=69 velocity=100 time=720
+004320 note_on channel=5 note=69 velocity=95 time=0
+004320 note_off channel=5 note=69 velocity=100 time=480
+004800 note_on channel=5 note=69 velocity=95 time=0
+004800 note_off channel=5 note=69 velocity=100 time=240
+005040 note_on channel=5 note=66 velocity=95 time=0
+005040 note_off channel=5 note=66 velocity=100 time=720
+005760 note_on channel=5 note=67 velocity=95 time=0
+005760 note_off channel=5 note=67 velocity=100 time=480
+006240 note_on channel=5 note=67 velocity=95 time=0
+006240 note_off channel=5 note=67 velocity=100 time=240
+006480 note_on channel=5 note=71 velocity=95 time=0
+006480 note_off channel=5 note=71 velocity=100 time=360
+006840 note_on channel=5 note=69 velocity=95 time=0
+006840 note_off channel=5 note=69 velocity=100 time=120
+006960 note_on channel=5 note=67 velocity=95 time=0
+006960 note_off channel=5 note=67 velocity=100 time=240
+007200 note_on channel=5 note=66 velocity=95 time=0
+007200 note_off channel=5 note=66 velocity=100 time=360
+007560 note_on channel=5 note=67 velocity=95 time=0
+007560 note_off channel=5 note=67 velocity=100 time=120
+007680 note_on channel=5 note=66 velocity=95 time=0
+007680 note_off channel=5 note=66 velocity=100 time=240
+007920 note_on channel=5 note=62 velocity=95 time=0
+007920 note_off channel=5 note=62 velocity=100 time=720
+008640 note_on channel=5 note=67 velocity=95 time=0
+008640 note_off channel=5 note=67 velocity=100 time=480
+009120 note_on channel=5 note=67 velocity=95 time=0
+009120 note_off channel=5 note=67 velocity=100 time=240
+009360 note_on channel=5 note=71 velocity=95 time=0
+009360 note_off channel=5 note=71 velocity=100 time=360
+009720 note_on channel=5 note=69 velocity=95 time=0
+009720 note_off channel=5 note=69 velocity=100 time=120
+009840 note_on channel=5 note=67 velocity=95 time=0
+009840 note_off channel=5 note=67 velocity=100 time=240
+010080 note_on channel=5 note=66 velocity=95 time=0
+010080 note_off channel=5 note=66 velocity=100 time=360
+010440 note_on channel=5 note=67 velocity=95 time=0
+010440 note_off channel=5 note=67 velocity=100 time=120
+010560 note_on channel=5 note=66 velocity=95 time=0
+010560 note_off channel=5 note=66 velocity=100 time=240
+010800 note_on channel=5 note=62 velocity=95 time=0
+010800 note_off channel=5 note=62 velocity=100 time=720
+011520 note_on channel=5 note=73 velocity=95 time=0
+011520 note_off channel=5 note=73 velocity=100 time=480
+012000 note_on channel=5 note=73 velocity=95 time=0
+012000 note_off channel=5 note=73 velocity=100 time=240
+012240 note_on channel=5 note=76 velocity=95 time=0
+012240 note_off channel=5 note=76 velocity=100 time=360
+012600 note_on channel=5 note=73 velocity=95 time=0
+012600 note_off channel=5 note=73 velocity=100 time=120
+012720 note_on channel=5 note=69 velocity=95 time=0
+012720 note_off channel=5 note=69 velocity=100 time=240
+012960 note_on channel=5 note=69 velocity=95 time=0
+012960 note_off channel=5 note=69 velocity=100 time=720
+013680 note_on channel=5 note=74 velocity=95 time=0
+013680 note_off channel=5 note=74 velocity=100 time=720
+014400 note_on channel=5 note=69 velocity=95 time=0
+014400 note_off channel=5 note=69 velocity=100 time=240
+014640 note_on channel=5 note=66 velocity=95 time=0
+014640 note_off channel=5 note=66 velocity=100 time=240
+014880 note_on channel=5 note=62 velocity=95 time=0
+014880 note_off channel=5 note=62 velocity=100 time=240
+015120 note_on channel=5 note=64 velocity=95 time=0
+015120 note_off channel=5 note=64 velocity=100 time=480
+015600 note_on channel=5 note=61 velocity=95 time=0
+015600 note_off channel=5 note=61 velocity=100 time=240
+015840 note_on channel=5 note=62 velocity=95 time=0
+015840 note_off channel=5 note=62 velocity=100 time=720
+016560 note_on channel=5 note=62 velocity=95 time=0
+016560 note_off channel=5 note=62 velocity=100 time=720
+017280 MetaMessage('end_of_track', time=0)
+
+
+
+=== All-Messages for Track 4 | Bass
+000000 MetaMessage('track_name', name='Bass', time=0)
+000000 program_change channel=7 program=32 time=0
+000000 program_change channel=8 program=32 time=0
+000000 control_change channel=7 control=101 value=0 time=0
+000000 control_change channel=7 control=100 value=0 time=0
+000000 control_change channel=7 control=6 value=8 time=0
+000000 control_change channel=7 control=101 value=127 time=0
+000000 control_change channel=7 control=100 value=127 time=0
+000000 pitchwheel channel=7 pitch=0 time=0
+000000 control_change channel=8 control=101 value=0 time=0
+000000 control_change channel=8 control=100 value=0 time=0
+000000 control_change channel=8 control=6 value=8 time=0
+000000 control_change channel=8 control=101 value=127 time=0
+000000 control_change channel=8 control=100 value=127 time=0
+000000 pitchwheel channel=8 pitch=0 time=0
+000000 control_change channel=7 control=10 value=63 time=0
+000000 control_change channel=8 control=10 value=63 time=0
+000000 control_change channel=7 control=93 value=0 time=0
+000000 control_change channel=7 control=91 value=0 time=0
+000000 control_change channel=8 control=93 value=0 time=0
+000000 control_change channel=8 control=91 value=0 time=0
+000000 note_on channel=7 note=50 velocity=95 time=0
+000000 MetaMessage('text', text='Bass', time=0)
+000000 note_off channel=7 note=50 velocity=100 time=720
+000720 note_on channel=7 note=50 velocity=95 time=0
+000720 note_off channel=7 note=50 velocity=100 time=480
+001200 note_on channel=7 note=57 velocity=95 time=0
+001200 note_off channel=7 note=57 velocity=100 time=240
+001440 note_on channel=7 note=50 velocity=95 time=0
+001440 note_off channel=7 note=50 velocity=100 time=720
+002160 note_on channel=7 note=50 velocity=95 time=0
+002160 note_off channel=7 note=50 velocity=100 time=480
+002640 note_on channel=7 note=57 velocity=95 time=0
+002640 note_off channel=7 note=57 velocity=100 time=240
+002880 note_on channel=7 note=57 velocity=95 time=0
+002880 note_off channel=7 note=57 velocity=100 time=720
+003600 note_on channel=7 note=57 velocity=95 time=0
+003600 note_off channel=7 note=57 velocity=100 time=240
+003840 note_on channel=7 note=59 velocity=95 time=0
+003840 note_off channel=7 note=59 velocity=100 time=240
+004080 note_on channel=7 note=61 velocity=95 time=0
+004080 note_off channel=7 note=61 velocity=100 time=240
+004320 note_on channel=7 note=62 velocity=95 time=0
+004320 note_off channel=7 note=62 velocity=100 time=480
+004800 note_on channel=7 note=57 velocity=95 time=0
+004800 note_off channel=7 note=57 velocity=100 time=240
+005040 note_on channel=7 note=50 velocity=95 time=0
+005040 note_off channel=7 note=50 velocity=100 time=240
+005280 note_on channel=7 note=52 velocity=95 time=0
+005280 note_off channel=7 note=52 velocity=100 time=240
+005520 note_on channel=7 note=54 velocity=95 time=0
+005520 note_off channel=7 note=54 velocity=100 time=240
+005760 note_on channel=7 note=55 velocity=95 time=0
+005760 note_off channel=7 note=55 velocity=100 time=720
+006480 note_on channel=7 note=55 velocity=95 time=0
+006480 note_off channel=7 note=55 velocity=100 time=480
+006960 note_on channel=7 note=59 velocity=95 time=0
+006960 note_off channel=7 note=59 velocity=100 time=240
+007200 note_on channel=7 note=50 velocity=95 time=0
+007200 note_off channel=7 note=50 velocity=100 time=720
+007920 note_on channel=7 note=50 velocity=95 time=0
+007920 note_off channel=7 note=50 velocity=100 time=240
+008160 note_on channel=7 note=52 velocity=95 time=0
+008160 note_off channel=7 note=52 velocity=100 time=240
+008400 note_on channel=7 note=54 velocity=95 time=0
+008400 note_off channel=7 note=54 velocity=100 time=240
+008640 note_on channel=7 note=55 velocity=95 time=0
+008640 note_off channel=7 note=55 velocity=100 time=720
+009360 note_on channel=7 note=55 velocity=95 time=0
+009360 note_off channel=7 note=55 velocity=100 time=480
+009840 note_on channel=7 note=59 velocity=95 time=0
+009840 note_off channel=7 note=59 velocity=100 time=240
+010080 note_on channel=7 note=50 velocity=95 time=0
+010080 note_off channel=7 note=50 velocity=100 time=720
+010800 note_on channel=7 note=62 velocity=95 time=0
+010800 note_off channel=7 note=62 velocity=100 time=240
+011040 note_on channel=7 note=61 velocity=95 time=0
+011040 note_off channel=7 note=61 velocity=100 time=240
+011280 note_on channel=7 note=59 velocity=95 time=0
+011280 note_off channel=7 note=59 velocity=100 time=240
+011520 note_on channel=7 note=57 velocity=95 time=0
+011520 note_off channel=7 note=57 velocity=100 time=720
+012240 note_on channel=7 note=57 velocity=95 time=0
+012240 note_off channel=7 note=57 velocity=100 time=240
+012480 note_on channel=7 note=59 velocity=95 time=0
+012480 note_off channel=7 note=59 velocity=100 time=240
+012720 note_on channel=7 note=61 velocity=95 time=0
+012720 note_off channel=7 note=61 velocity=100 time=240
+012960 note_on channel=7 note=62 velocity=95 time=0
+012960 note_off channel=7 note=62 velocity=100 time=720
+013680 note_on channel=7 note=50 velocity=95 time=0
+013680 note_off channel=7 note=50 velocity=100 time=720
+014400 note_on channel=7 note=57 velocity=95 time=0
+014400 note_off channel=7 note=57 velocity=100 time=240
+014640 note_on channel=7 note=54 velocity=95 time=0
+014640 note_off channel=7 note=54 velocity=100 time=240
+014880 note_on channel=7 note=50 velocity=95 time=0
+014880 note_off channel=7 note=50 velocity=100 time=240
+015120 note_on channel=7 note=55 velocity=95 time=0
+015120 note_off channel=7 note=55 velocity=100 time=240
+015360 note_on channel=7 note=52 velocity=95 time=0
+015360 note_off channel=7 note=52 velocity=100 time=240
+015600 note_on channel=7 note=52 velocity=95 time=0
+015600 note_off channel=7 note=52 velocity=100 time=240
+015840 note_on channel=7 note=50 velocity=95 time=0
+015840 note_off channel=7 note=50 velocity=100 time=720
+016560 note_on channel=7 note=50 velocity=95 time=0
+016560 note_off channel=7 note=50 velocity=100 time=720
+017280 MetaMessage('end_of_track', time=0)
+
+
+
+=== All-Messages for Track 5 | Melody
+000000 MetaMessage('track_name', name='Melody', time=0)
+000000 program_change channel=10 program=4 time=0
+000000 program_change channel=11 program=4 time=0
+000000 control_change channel=10 control=101 value=0 time=0
+000000 control_change channel=10 control=100 value=0 time=0
+000000 control_change channel=10 control=6 value=8 time=0
+000000 control_change channel=10 control=101 value=127 time=0
+000000 control_change channel=10 control=100 value=127 time=0
+000000 pitchwheel channel=10 pitch=0 time=0
+000000 control_change channel=11 control=101 value=0 time=0
+000000 control_change channel=11 control=100 value=0 time=0
+000000 control_change channel=11 control=6 value=8 time=0
+000000 control_change channel=11 control=101 value=127 time=0
+000000 control_change channel=11 control=100 value=127 time=0
+000000 pitchwheel channel=11 pitch=0 time=0
+000000 control_change channel=10 control=10 value=63 time=0
+000000 control_change channel=11 control=10 value=63 time=0
+000000 control_change channel=10 control=93 value=0 time=0
+000000 control_change channel=10 control=91 value=0 time=0
+000000 control_change channel=11 control=93 value=0 time=0
+000000 control_change channel=11 control=91 value=0 time=0
+000000 note_on channel=10 note=50 velocity=95 time=0
+000000 note_on channel=10 note=57 velocity=95 time=0
+000000 note_on channel=10 note=69 velocity=95 time=0
+000000 MetaMessage('text', text='D', time=15)
+000015 MetaMessage('text', text='Basic Melody', time=0)
+000015 note_off channel=10 note=50 velocity=100 time=345
+000360 note_off channel=10 note=57 velocity=100 time=0
+000360 note_off channel=10 note=69 velocity=100 time=0
+000360 note_on channel=10 note=71 velocity=95 time=0
+000360 note_off channel=10 note=71 velocity=100 time=120
+000480 note_on channel=10 note=69 velocity=95 time=0
+000480 note_off channel=10 note=69 velocity=100 time=240
+000720 note_on channel=10 note=50 velocity=95 time=0
+000720 note_on channel=10 note=57 velocity=95 time=0
+000720 note_on channel=10 note=66 velocity=95 time=0
+000720 note_off channel=10 note=50 velocity=100 time=720
+001440 note_off channel=10 note=57 velocity=100 time=0
+001440 note_off channel=10 note=66 velocity=100 time=0
+001440 note_on channel=10 note=50 velocity=95 time=0
+001440 note_on channel=10 note=57 velocity=95 time=0
+001440 note_on channel=10 note=69 velocity=95 time=0
+001440 note_off channel=10 note=50 velocity=100 time=360
+001800 note_off channel=10 note=57 velocity=100 time=0
+001800 note_off channel=10 note=69 velocity=100 time=0
+001800 note_on channel=10 note=71 velocity=95 time=0
+001800 note_off channel=10 note=71 velocity=100 time=120
+001920 note_on channel=10 note=69 velocity=95 time=0
+001920 note_off channel=10 note=69 velocity=100 time=240
+002160 note_on channel=10 note=50 velocity=95 time=0
+002160 note_on channel=10 note=57 velocity=95 time=0
+002160 note_on channel=10 note=66 velocity=95 time=0
+002160 note_off channel=10 note=50 velocity=100 time=720
+002880 note_off channel=10 note=57 velocity=100 time=0
+002880 note_off channel=10 note=66 velocity=100 time=0
+002880 note_on channel=10 note=76 velocity=95 time=0
+002880 MetaMessage('text', text='A', time=15)
+002895 note_off channel=10 note=76 velocity=100 time=465
+003360 note_on channel=10 note=76 velocity=95 time=0
+003360 note_off channel=10 note=76 velocity=100 time=240
+003600 note_on channel=10 note=57 velocity=95 time=0
+003600 note_on channel=10 note=64 velocity=95 time=0
+003600 note_on channel=10 note=73 velocity=95 time=0
+003600 MetaMessage('text', text='A7', time=15)
+003615 note_off channel=10 note=57 velocity=100 time=705
+004320 note_off channel=10 note=64 velocity=100 time=0
+004320 note_off channel=10 note=73 velocity=100 time=0
+004320 note_on channel=10 note=50 velocity=95 time=0
+004320 note_on channel=10 note=57 velocity=95 time=0
+004320 note_on channel=10 note=74 velocity=95 time=0
+004320 MetaMessage('text', text='D', time=15)
+004335 note_off channel=10 note=50 velocity=100 time=465
+004800 note_off channel=10 note=57 velocity=100 time=0
+004800 note_off channel=10 note=74 velocity=100 time=0
+004800 note_on channel=10 note=74 velocity=95 time=0
+004800 note_off channel=10 note=74 velocity=100 time=240
+005040 note_on channel=10 note=50 velocity=95 time=0
+005040 note_on channel=10 note=57 velocity=95 time=0
+005040 note_on channel=10 note=69 velocity=95 time=0
+005040 note_off channel=10 note=50 velocity=100 time=720
+005760 note_off channel=10 note=57 velocity=100 time=0
+005760 note_off channel=10 note=69 velocity=100 time=0
+005760 note_on channel=10 note=55 velocity=95 time=0
+005760 note_on channel=10 note=62 velocity=95 time=0
+005760 note_on channel=10 note=71 velocity=95 time=0
+005760 MetaMessage('text', text='G', time=15)
+005775 note_off channel=10 note=55 velocity=100 time=465
+006240 note_off channel=10 note=62 velocity=100 time=0
+006240 note_off channel=10 note=71 velocity=100 time=0
+006240 note_on channel=10 note=71 velocity=95 time=0
+006240 note_off channel=10 note=71 velocity=100 time=240
+006480 note_on channel=10 note=50 velocity=95 time=0
+006480 note_on channel=10 note=67 velocity=95 time=0
+006480 note_on channel=10 note=74 velocity=95 time=0
+006480 note_off channel=10 note=50 velocity=100 time=360
+006840 note_off channel=10 note=67 velocity=100 time=0
+006840 note_off channel=10 note=74 velocity=100 time=0
+006840 note_on channel=10 note=73 velocity=95 time=0
+006840 note_off channel=10 note=73 velocity=100 time=120
+006960 note_on channel=10 note=71 velocity=95 time=0
+006960 note_off channel=10 note=71 velocity=100 time=240
+007200 note_on channel=10 note=50 velocity=95 time=0
+007200 note_on channel=10 note=57 velocity=95 time=0
+007200 note_on channel=10 note=69 velocity=95 time=0
+007200 MetaMessage('text', text='D', time=15)
+007215 note_off channel=10 note=50 velocity=100 time=345
+007560 note_off channel=10 note=57 velocity=100 time=0
+007560 note_off channel=10 note=69 velocity=100 time=0
+007560 note_on channel=10 note=71 velocity=95 time=0
+007560 note_off channel=10 note=71 velocity=100 time=120
+007680 note_on channel=10 note=69 velocity=95 time=0
+007680 note_off channel=10 note=69 velocity=100 time=240
+007920 note_on channel=10 note=50 velocity=95 time=0
+007920 note_on channel=10 note=57 velocity=95 time=0
+007920 note_on channel=10 note=66 velocity=95 time=0
+007920 note_off channel=10 note=50 velocity=100 time=720
+008640 note_off channel=10 note=57 velocity=100 time=0
+008640 note_off channel=10 note=66 velocity=100 time=0
+008640 note_on channel=10 note=55 velocity=95 time=0
+008640 note_on channel=10 note=62 velocity=95 time=0
+008640 note_on channel=10 note=71 velocity=95 time=0
+008640 MetaMessage('text', text='G', time=15)
+008655 note_off channel=10 note=55 velocity=100 time=465
+009120 note_off channel=10 note=62 velocity=100 time=0
+009120 note_off channel=10 note=71 velocity=100 time=0
+009120 note_on channel=10 note=71 velocity=95 time=0
+009120 note_off channel=10 note=71 velocity=100 time=240
+009360 note_on channel=10 note=59 velocity=95 time=0
+009360 note_on channel=10 note=67 velocity=95 time=0
+009360 note_on channel=10 note=74 velocity=95 time=0
+009360 note_off channel=10 note=59 velocity=100 time=360
+009720 note_off channel=10 note=67 velocity=100 time=0
+009720 note_off channel=10 note=74 velocity=100 time=0
+009720 note_on channel=10 note=73 velocity=95 time=0
+009720 note_off channel=10 note=73 velocity=100 time=120
+009840 note_on channel=10 note=71 velocity=95 time=0
+009840 note_off channel=10 note=71 velocity=100 time=240
+010080 note_on channel=10 note=50 velocity=95 time=0
+010080 note_on channel=10 note=57 velocity=95 time=0
+010080 note_on channel=10 note=69 velocity=95 time=0
+010080 MetaMessage('text', text='D', time=15)
+010095 note_off channel=10 note=50 velocity=100 time=345
+010440 note_off channel=10 note=57 velocity=100 time=0
+010440 note_off channel=10 note=69 velocity=100 time=0
+010440 note_on channel=10 note=71 velocity=95 time=0
+010440 note_off channel=10 note=71 velocity=100 time=120
+010560 note_on channel=10 note=69 velocity=95 time=0
+010560 note_off channel=10 note=69 velocity=100 time=240
+010800 note_on channel=10 note=50 velocity=95 time=0
+010800 note_on channel=10 note=57 velocity=95 time=0
+010800 note_on channel=10 note=66 velocity=95 time=0
+010800 note_off channel=10 note=50 velocity=100 time=720
+011520 note_off channel=10 note=57 velocity=100 time=0
+011520 note_off channel=10 note=66 velocity=100 time=0
+011520 note_on channel=10 note=76 velocity=95 time=0
+011520 MetaMessage('text', text='A', time=15)
+011535 note_off channel=10 note=76 velocity=100 time=465
+012000 note_on channel=10 note=76 velocity=95 time=0
+012000 note_off channel=10 note=76 velocity=100 time=240
+012240 note_on channel=10 note=79 velocity=95 time=0
+012240 MetaMessage('text', text='A7', time=15)
+012255 note_off channel=10 note=79 velocity=100 time=345
+012600 note_on channel=10 note=76 velocity=95 time=0
+012600 note_off channel=10 note=76 velocity=100 time=120
+012720 note_on channel=10 note=73 velocity=95 time=0
+012720 note_off channel=10 note=73 velocity=100 time=240
+012960 note_on channel=10 note=50 velocity=95 time=0
+012960 note_on channel=10 note=57 velocity=95 time=0
+012960 note_on channel=10 note=74 velocity=95 time=0
+012960 MetaMessage('text', text='D', time=15)
+012975 note_off channel=10 note=50 velocity=100 time=705
+013680 note_off channel=10 note=57 velocity=100 time=0
+013680 note_off channel=10 note=74 velocity=100 time=0
+013680 note_on channel=10 note=50 velocity=95 time=0
+013680 note_on channel=10 note=57 velocity=95 time=0
+013680 note_on channel=10 note=78 velocity=95 time=0
+013680 note_off channel=10 note=50 velocity=100 time=720
+014400 note_off channel=10 note=57 velocity=100 time=0
+014400 note_off channel=10 note=78 velocity=100 time=0
+014400 note_on channel=10 note=50 velocity=95 time=0
+014400 note_on channel=10 note=57 velocity=95 time=0
+014400 note_on channel=10 note=74 velocity=95 time=0
+014400 note_off channel=10 note=50 velocity=100 time=240
+014640 note_off channel=10 note=57 velocity=100 time=0
+014640 note_off channel=10 note=74 velocity=100 time=0
+014640 note_on channel=10 note=69 velocity=95 time=0
+014640 note_off channel=10 note=69 velocity=100 time=240
+014880 note_on channel=10 note=66 velocity=95 time=0
+014880 note_off channel=10 note=66 velocity=100 time=240
+015120 note_on channel=10 note=52 velocity=95 time=0
+015120 note_on channel=10 note=57 velocity=95 time=0
+015120 note_on channel=10 note=69 velocity=95 time=0
+015120 MetaMessage('text', text='A7', time=15)
+015135 note_off channel=10 note=52 velocity=100 time=345
+015480 note_off channel=10 note=57 velocity=100 time=0
+015480 note_off channel=10 note=69 velocity=100 time=0
+015480 note_on channel=10 note=67 velocity=95 time=0
+015480 note_off channel=10 note=67 velocity=100 time=120
+015600 note_on channel=10 note=64 velocity=95 time=0
+015600 note_off channel=10 note=64 velocity=100 time=240
+015840 note_on channel=10 note=50 velocity=95 time=0
+015840 note_on channel=10 note=57 velocity=95 time=0
+015840 note_on channel=10 note=62 velocity=95 time=0
+015840 MetaMessage('text', text='D', time=15)
+015855 note_off channel=10 note=50 velocity=100 time=705
+016560 note_off channel=10 note=57 velocity=100 time=0
+016560 note_off channel=10 note=62 velocity=100 time=0
+016560 note_on channel=10 note=50 velocity=95 time=0
+016560 note_on channel=10 note=57 velocity=95 time=0
+016560 note_on channel=10 note=62 velocity=95 time=0
+016560 note_off channel=10 note=50 velocity=100 time=720
+017280 note_off channel=10 note=57 velocity=100 time=0
+017280 note_off channel=10 note=62 velocity=100 time=0
+017280 MetaMessage('end_of_track', time=0)
+
+
+
+=== All-Messages for Track 6 | Silent Night - 
+000000 MetaMessage('track_name', name='Silent Night - ', time=0)
+000000 MetaMessage('end_of_track', time=0)
+
+
