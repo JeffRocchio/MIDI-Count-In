@@ -1,0 +1,10 @@
+.mscbackup
+.kateproject.*
+doc_UML_BU*
+.obsidian
+/TEST*
+/test*
+/Test*
+/*.mid
+TestScores-and-MIDIs\.mscbackup
+TestScores-and-MIDIs\*.lst
