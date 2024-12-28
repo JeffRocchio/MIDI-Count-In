@@ -33,11 +33,13 @@ That said, the basic outline is:
 
 The following documents are useful for going down the rabbit hole:
 
-doc_Notes_ChannelNumbers.md
-doc_Notes_CountInRules.md
-doc_Notes_CountInRules_MJfeedback.odt
-doc_Notes.md
-doc_Notes_TimeSignature.md
+In the directory Coding-Documentation see:
+
+   * doc_Notes_ChannelNumbers.md
+   * doc_Notes_CountInRules.md
+   * doc_Notes_CountInRules_MJfeedback.odt
+   * doc_Notes.md
+   * doc_Notes_TimeSignature.md
 
 ## Coding Documentation
 
